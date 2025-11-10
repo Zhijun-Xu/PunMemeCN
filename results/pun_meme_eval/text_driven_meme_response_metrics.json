@@ -1,0 +1,736 @@
+{
+    "hard": {
+        "intern-vl2_5-8b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.306,
+                    "wrong(text_sim)": 0.3,
+                    "wrong(image_sim)": 0.197,
+                    "wrong(sentiment_sim)": 0.197
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.367,
+                    "wrong(text_sim)": 0.313,
+                    "wrong(image_sim)": 0.146,
+                    "wrong(sentiment_sim)": 0.173
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.321,
+                    "wrong(text_sim)": 0.291,
+                    "wrong(image_sim)": 0.179,
+                    "wrong(sentiment_sim)": 0.208
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.371,
+                    "wrong(text_sim)": 0.291,
+                    "wrong(image_sim)": 0.142,
+                    "wrong(sentiment_sim)": 0.196
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.363,
+                    "wrong(text_sim)": 0.298,
+                    "wrong(image_sim)": 0.145,
+                    "wrong(sentiment_sim)": 0.193
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.332,
+                    "wrong(text_sim)": 0.295,
+                    "wrong(image_sim)": 0.184,
+                    "wrong(sentiment_sim)": 0.188
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.327,
+                    "wrong(text_sim)": 0.3,
+                    "wrong(image_sim)": 0.186,
+                    "wrong(sentiment_sim)": 0.186
+                }
+            },
+            "en": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.309,
+                    "wrong(text_sim)": 0.313,
+                    "wrong(image_sim)": 0.188,
+                    "wrong(sentiment_sim)": 0.19
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.369,
+                    "wrong(text_sim)": 0.337,
+                    "wrong(image_sim)": 0.13,
+                    "wrong(sentiment_sim)": 0.163
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.339,
+                    "wrong(text_sim)": 0.283,
+                    "wrong(image_sim)": 0.168,
+                    "wrong(sentiment_sim)": 0.21
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.373,
+                    "wrong(text_sim)": 0.274,
+                    "wrong(image_sim)": 0.148,
+                    "wrong(sentiment_sim)": 0.205
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.37,
+                    "wrong(text_sim)": 0.271,
+                    "wrong(image_sim)": 0.152,
+                    "wrong(sentiment_sim)": 0.207
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.349,
+                    "wrong(text_sim)": 0.289,
+                    "wrong(image_sim)": 0.183,
+                    "wrong(sentiment_sim)": 0.179
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.314,
+                    "wrong(text_sim)": 0.309,
+                    "wrong(image_sim)": 0.184,
+                    "wrong(sentiment_sim)": 0.193
+                }
+            }
+        },
+        "qwen2-vl-7b-instruct": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.2875,
+                    "wrong(text_sim)": 0.2795,
+                    "wrong(image_sim)": 0.2272,
+                    "wrong(sentiment_sim)": 0.2058
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.3209,
+                    "wrong(text_sim)": 0.2825,
+                    "wrong(image_sim)": 0.2058,
+                    "wrong(sentiment_sim)": 0.1908
+                }
+            }
+        },
+        "qwen2.5-vl-7b-instruct": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.274,
+                    "wrong(text_sim)": 0.353,
+                    "wrong(image_sim)": 0.201,
+                    "wrong(sentiment_sim)": 0.172
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.345,
+                    "wrong(text_sim)": 0.312,
+                    "wrong(image_sim)": 0.168,
+                    "wrong(sentiment_sim)": 0.175
+                }
+            }
+        },
+        "minicpm-v-2_6": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.291,
+                    "wrong(text_sim)": 0.262,
+                    "wrong(image_sim)": 0.234,
+                    "wrong(sentiment_sim)": 0.212
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.336,
+                    "wrong(text_sim)": 0.287,
+                    "wrong(image_sim)": 0.183,
+                    "wrong(sentiment_sim)": 0.193
+                }
+            }
+        },
+        "llava-onevision-qwen2-7b-ov": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.271,
+                    "wrong(text_sim)": 0.247,
+                    "wrong(image_sim)": 0.268,
+                    "wrong(sentiment_sim)": 0.215
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.316,
+                    "wrong(text_sim)": 0.304,
+                    "wrong(image_sim)": 0.201,
+                    "wrong(sentiment_sim)": 0.179
+                }
+            }
+        },
+        "gpt-4o-2024-08-06": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.383,
+                    "wrong(text_sim)": 0.342,
+                    "wrong(image_sim)": 0.123,
+                    "wrong(sentiment_sim)": 0.152
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.457,
+                    "wrong(text_sim)": 0.328,
+                    "wrong(image_sim)": 0.1,
+                    "wrong(sentiment_sim)": 0.114
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.311,
+                    "wrong(text_sim)": 0.274,
+                    "wrong(image_sim)": 0.209,
+                    "wrong(sentiment_sim)": 0.205
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.422,
+                    "wrong(text_sim)": 0.292,
+                    "wrong(image_sim)": 0.133,
+                    "wrong(sentiment_sim)": 0.153
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.423,
+                    "wrong(text_sim)": 0.271,
+                    "wrong(image_sim)": 0.149,
+                    "wrong(sentiment_sim)": 0.156
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.697,
+                    "wrong(text_sim)": 0.166,
+                    "wrong(image_sim)": 0.058,
+                    "wrong(sentiment_sim)": 0.079
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.706,
+                    "wrong(text_sim)": 0.154,
+                    "wrong(image_sim)": 0.063,
+                    "wrong(sentiment_sim)": 0.077
+                }
+            }
+        },
+        "gpt-4o-mini-2024-07-18": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.281,
+                    "wrong(text_sim)": 0.34,
+                    "wrong(image_sim)": 0.184,
+                    "wrong(sentiment_sim)": 0.195
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.349,
+                    "wrong(text_sim)": 0.344,
+                    "wrong(image_sim)": 0.15,
+                    "wrong(sentiment_sim)": 0.157
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.252,
+                    "wrong(text_sim)": 0.247,
+                    "wrong(image_sim)": 0.258,
+                    "wrong(sentiment_sim)": 0.243
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.304,
+                    "wrong(text_sim)": 0.327,
+                    "wrong(image_sim)": 0.189,
+                    "wrong(sentiment_sim)": 0.179
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.317,
+                    "wrong(text_sim)": 0.327,
+                    "wrong(image_sim)": 0.182,
+                    "wrong(sentiment_sim)": 0.173
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.42,
+                    "wrong(text_sim)": 0.283,
+                    "wrong(image_sim)": 0.154,
+                    "wrong(sentiment_sim)": 0.143
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.402,
+                    "wrong(text_sim)": 0.284,
+                    "wrong(image_sim)": 0.145,
+                    "wrong(sentiment_sim)": 0.169
+                }
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.32,
+                    "wrong(text_sim)": 0.374,
+                    "wrong(image_sim)": 0.158,
+                    "wrong(sentiment_sim)": 0.147
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.485,
+                    "wrong(text_sim)": 0.299,
+                    "wrong(image_sim)": 0.104,
+                    "wrong(sentiment_sim)": 0.111
+                }
+            }
+        },
+        "doubao-1.5-vision-pro-32k-250115": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.543,
+                    "wrong(text_sim)": 0.221,
+                    "wrong(image_sim)": 0.109,
+                    "wrong(sentiment_sim)": 0.127
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.621,
+                    "wrong(text_sim)": 0.174,
+                    "wrong(image_sim)": 0.099,
+                    "wrong(sentiment_sim)": 0.106
+                }
+            }
+        },
+        "intern-vl2_5-26b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.338,
+                    "wrong(text_sim)": 0.353,
+                    "wrong(image_sim)": 0.141,
+                    "wrong(sentiment_sim)": 0.169
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.427,
+                    "wrong(text_sim)": 0.306,
+                    "wrong(image_sim)": 0.116,
+                    "wrong(sentiment_sim)": 0.151
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.339,
+                    "wrong(text_sim)": 0.323,
+                    "wrong(image_sim)": 0.145,
+                    "wrong(sentiment_sim)": 0.193
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.413,
+                    "wrong(text_sim)": 0.293,
+                    "wrong(image_sim)": 0.123,
+                    "wrong(sentiment_sim)": 0.171
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.389,
+                    "wrong(text_sim)": 0.299,
+                    "wrong(image_sim)": 0.134,
+                    "wrong(sentiment_sim)": 0.178
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.38,
+                    "wrong(text_sim)": 0.27,
+                    "wrong(image_sim)": 0.172,
+                    "wrong(sentiment_sim)": 0.178
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.376,
+                    "wrong(text_sim)": 0.263,
+                    "wrong(image_sim)": 0.174,
+                    "wrong(sentiment_sim)": 0.187
+                }
+            },
+            "en": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.32,
+                    "wrong(text_sim)": 0.351,
+                    "wrong(image_sim)": 0.146,
+                    "wrong(sentiment_sim)": 0.183
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.402,
+                    "wrong(text_sim)": 0.317,
+                    "wrong(image_sim)": 0.125,
+                    "wrong(sentiment_sim)": 0.156
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.331,
+                    "wrong(text_sim)": 0.327,
+                    "wrong(image_sim)": 0.152,
+                    "wrong(sentiment_sim)": 0.19
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.404,
+                    "wrong(text_sim)": 0.299,
+                    "wrong(image_sim)": 0.131,
+                    "wrong(sentiment_sim)": 0.166
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.376,
+                    "wrong(text_sim)": 0.297,
+                    "wrong(image_sim)": 0.151,
+                    "wrong(sentiment_sim)": 0.175
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.401,
+                    "wrong(text_sim)": 0.281,
+                    "wrong(image_sim)": 0.142,
+                    "wrong(sentiment_sim)": 0.177
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.385,
+                    "wrong(text_sim)": 0.281,
+                    "wrong(image_sim)": 0.162,
+                    "wrong(sentiment_sim)": 0.172
+                }
+            }
+        },
+        "qwen2.5-vl-72b-instruct": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.362,
+                    "wrong(text_sim)": 0.358,
+                    "wrong(image_sim)": 0.116,
+                    "wrong(sentiment_sim)": 0.164
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.459,
+                    "wrong(text_sim)": 0.315,
+                    "wrong(image_sim)": 0.097,
+                    "wrong(sentiment_sim)": 0.129
+                }
+            }
+        },
+        "llava-onevision-qwen2-72b-ov-chat": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.296,
+                    "wrong(text_sim)": 0.321,
+                    "wrong(image_sim)": 0.196,
+                    "wrong(sentiment_sim)": 0.187
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.473,
+                    "wrong(text_sim)": 0.296,
+                    "wrong(image_sim)": 0.107,
+                    "wrong(sentiment_sim)": 0.125
+                }
+            }
+        },
+        "intern-vl2_5-38b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.346,
+                    "wrong(text_sim)": 0.355,
+                    "wrong(image_sim)": 0.137,
+                    "wrong(sentiment_sim)": 0.162
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.433,
+                    "wrong(text_sim)": 0.312,
+                    "wrong(image_sim)": 0.117,
+                    "wrong(sentiment_sim)": 0.137
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.349,
+                    "wrong(text_sim)": 0.354,
+                    "wrong(image_sim)": 0.129,
+                    "wrong(sentiment_sim)": 0.168
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.428,
+                    "wrong(text_sim)": 0.313,
+                    "wrong(image_sim)": 0.12,
+                    "wrong(sentiment_sim)": 0.14
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.418,
+                    "wrong(text_sim)": 0.325,
+                    "wrong(image_sim)": 0.113,
+                    "wrong(sentiment_sim)": 0.144
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.452,
+                    "wrong(text_sim)": 0.227,
+                    "wrong(image_sim)": 0.153,
+                    "wrong(sentiment_sim)": 0.168
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.477,
+                    "wrong(text_sim)": 0.22,
+                    "wrong(image_sim)": 0.148,
+                    "wrong(sentiment_sim)": 0.154
+                }
+            },
+            "en": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.336,
+                    "wrong(text_sim)": 0.376,
+                    "wrong(image_sim)": 0.135,
+                    "wrong(sentiment_sim)": 0.153
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.418,
+                    "wrong(text_sim)": 0.345,
+                    "wrong(image_sim)": 0.106,
+                    "wrong(sentiment_sim)": 0.131
+                },
+                "only_image(few_shot)": {
+                    "Acc": 0.34,
+                    "wrong(text_sim)": 0.375,
+                    "wrong(image_sim)": 0.128,
+                    "wrong(sentiment_sim)": 0.157
+                },
+                "image_&_caption(few_shot)": {
+                    "Acc": 0.41,
+                    "wrong(text_sim)": 0.336,
+                    "wrong(image_sim)": 0.108,
+                    "wrong(sentiment_sim)": 0.145
+                },
+                "image_&_caption_&_pinyin(few_shot)": {
+                    "Acc": 0.409,
+                    "wrong(text_sim)": 0.339,
+                    "wrong(image_sim)": 0.107,
+                    "wrong(sentiment_sim)": 0.145
+                },
+                "image_&_caption(few_shot+CoT)": {
+                    "Acc": 0.442,
+                    "wrong(text_sim)": 0.263,
+                    "wrong(image_sim)": 0.134,
+                    "wrong(sentiment_sim)": 0.161
+                },
+                "image_&_caption_&_pinyin(few_shot+CoT)": {
+                    "Acc": 0.472,
+                    "wrong(text_sim)": 0.254,
+                    "wrong(image_sim)": 0.122,
+                    "wrong(sentiment_sim)": 0.152
+                }
+            }
+        },
+        "intern-vl2_5-78b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.37,
+                    "wrong(text_sim)": 0.346,
+                    "wrong(image_sim)": 0.133,
+                    "wrong(sentiment_sim)": 0.15
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.456,
+                    "wrong(text_sim)": 0.299,
+                    "wrong(image_sim)": 0.11,
+                    "wrong(sentiment_sim)": 0.136
+                }
+            }
+        }
+    },
+    "easy": {
+        "intern-vl2_5-8b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.39,
+                    "wrong(random1)": 0.201,
+                    "wrong(random2)": 0.199,
+                    "wrong(random3)": 0.21
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.475,
+                    "wrong(random1)": 0.176,
+                    "wrong(random2)": 0.16,
+                    "wrong(random3)": 0.189
+                }
+            }
+        },
+        "qwen2-vl-7b-instruct": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.3099,
+                    "wrong(random1)": 0.2282,
+                    "wrong(random2)": 0.2407,
+                    "wrong(random3)": 0.2212
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.3413,
+                    "wrong(random1)": 0.2182,
+                    "wrong(random2)": 0.2162,
+                    "wrong(random3)": 0.2242
+                }
+            }
+        },
+        "qwen2.5-vl-7b-instruct": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.371,
+                    "wrong(random1)": 0.192,
+                    "wrong(random2)": 0.225,
+                    "wrong(random3)": 0.212
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.428,
+                    "wrong(random1)": 0.184,
+                    "wrong(random2)": 0.189,
+                    "wrong(random3)": 0.199
+                }
+            }
+        },
+        "minicpm-v-2_6": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.282,
+                    "wrong(random1)": 0.217,
+                    "wrong(random2)": 0.244,
+                    "wrong(random3)": 0.257
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.362,
+                    "wrong(random1)": 0.202,
+                    "wrong(random2)": 0.207,
+                    "wrong(random3)": 0.229
+                }
+            }
+        },
+        "llava-onevision-qwen2-7b-ov": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.254,
+                    "wrong(random1)": 0.245,
+                    "wrong(random2)": 0.252,
+                    "wrong(random3)": 0.249
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.351,
+                    "wrong(random1)": 0.208,
+                    "wrong(random2)": 0.216,
+                    "wrong(random3)": 0.225
+                }
+            }
+        },
+        "gpt-4o-2024-08-06": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.483,
+                    "wrong(random1)": 0.179,
+                    "wrong(random2)": 0.163,
+                    "wrong(random3)": 0.174
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.575,
+                    "wrong(random1)": 0.143,
+                    "wrong(random2)": 0.141,
+                    "wrong(random3)": 0.141
+                }
+            }
+        },
+        "gpt-4o-mini-2024-07-18": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.344,
+                    "wrong(random1)": 0.223,
+                    "wrong(random2)": 0.201,
+                    "wrong(random3)": 0.232
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.437,
+                    "wrong(random1)": 0.189,
+                    "wrong(random2)": 0.182,
+                    "wrong(random3)": 0.192
+                }
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.43,
+                    "wrong(random1)": 0.193,
+                    "wrong(random2)": 0.188,
+                    "wrong(random3)": 0.188
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.594,
+                    "wrong(random1)": 0.134,
+                    "wrong(random2)": 0.143,
+                    "wrong(random3)": 0.129
+                }
+            }
+        },
+        "doubao-1.5-vision-pro-32k-250115": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.636,
+                    "wrong(random1)": 0.126,
+                    "wrong(random2)": 0.119,
+                    "wrong(random3)": 0.12
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.699,
+                    "wrong(random1)": 0.094,
+                    "wrong(random2)": 0.107,
+                    "wrong(random3)": 0.1
+                }
+            }
+        },
+        "intern-vl2_5-26b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.436,
+                    "wrong(random1)": 0.175,
+                    "wrong(random2)": 0.186,
+                    "wrong(random3)": 0.203
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.519,
+                    "wrong(random1)": 0.16,
+                    "wrong(random2)": 0.157,
+                    "wrong(random3)": 0.164
+                }
+            }
+        },
+        "qwen2.5-vl-72b-instruct": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.481,
+                    "wrong(random1)": 0.167,
+                    "wrong(random2)": 0.166,
+                    "wrong(random3)": 0.185
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.562,
+                    "wrong(random1)": 0.139,
+                    "wrong(random2)": 0.148,
+                    "wrong(random3)": 0.151
+                }
+            }
+        },
+        "llava-onevision-qwen2-72b-ov-chat": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.378,
+                    "wrong(random1)": 0.208,
+                    "wrong(random2)": 0.2,
+                    "wrong(random3)": 0.214
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.574,
+                    "wrong(random1)": 0.148,
+                    "wrong(random2)": 0.128,
+                    "wrong(random3)": 0.149
+                }
+            }
+        },
+        "intern-vl2_5-38b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.464,
+                    "wrong(random1)": 0.18,
+                    "wrong(random2)": 0.175,
+                    "wrong(random3)": 0.181
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.534,
+                    "wrong(random1)": 0.161,
+                    "wrong(random2)": 0.152,
+                    "wrong(random3)": 0.153
+                }
+            }
+        },
+        "intern-vl2_5-78b": {
+            "cn": {
+                "only_image(zero_shot)": {
+                    "Acc": 0.472,
+                    "wrong(random1)": 0.172,
+                    "wrong(random2)": 0.167,
+                    "wrong(random3)": 0.189
+                },
+                "image_&_caption(zero_shot)": {
+                    "Acc": 0.539,
+                    "wrong(random1)": 0.149,
+                    "wrong(random2)": 0.155,
+                    "wrong(random3)": 0.157
+                }
+            }
+        }
+    }
+}

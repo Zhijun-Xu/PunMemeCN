@@ -1,0 +1,20 @@
+{
+    "DuConv": {
+        "Perplexity": 15.8145,
+        "BERTScore": 0.787,
+        "Distinct-1": 0.0217,
+        "Distinct-2": 0.1517
+    },
+    "NaturalConv": {
+        "Perplexity": 18.3969,
+        "BERTScore": 0.8386,
+        "Distinct-1": 0.0145,
+        "Distinct-2": 0.1832
+    },
+    "Our": {
+        "Perplexity": 4.5768,
+        "BERTScore": 0.8677,
+        "Distinct-1": 0.0657,
+        "Distinct-2": 0.397
+    }
+}

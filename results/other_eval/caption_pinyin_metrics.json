@@ -1,0 +1,282 @@
+{
+    "gpt-4o-2024-08-06": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.99
+            },
+            "one-shot": {
+                "Acc": 0.99
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.99
+            },
+            "one-shot": {
+                "Acc": 0.99
+            }
+        }
+    },
+    "gpt-4o-mini-2024-07-18": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.987
+            },
+            "one-shot": {
+                "Acc": 0.989
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.99
+            },
+            "one-shot": {
+                "Acc": 0.988
+            }
+        }
+    },
+    "claude-3-5-sonnet-20241022": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.986
+            },
+            "one-shot": {
+                "Acc": 0.989
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.987
+            },
+            "one-shot": {
+                "Acc": 0.988
+            }
+        }
+    },
+    "claude-3-5-haiku-20241022": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.981
+            },
+            "one-shot": {
+                "Acc": 0.981
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.98
+            },
+            "one-shot": {
+                "Acc": 0.984
+            }
+        }
+    },
+    "doubao-1.5-vision-pro-32k-250115": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.983
+            },
+            "one-shot": {
+                "Acc": 0.986
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.982
+            },
+            "one-shot": {
+                "Acc": 0.965
+            }
+        }
+    },
+    "qwen2.5-vl-72b-instruct": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.989
+            },
+            "one-shot": {
+                "Acc": 0.99
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.985
+            },
+            "one-shot": {
+                "Acc": 0.991
+            }
+        }
+    },
+    "qwen2.5-vl-7b-instruct": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.925
+            },
+            "one-shot": {
+                "Acc": 0.957
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.943
+            },
+            "one-shot": {
+                "Acc": 0.962
+            }
+        }
+    },
+    "intern-vl2_5-78b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.982
+            },
+            "one-shot": {
+                "Acc": 0.983
+            }
+        }
+    },
+    "intern-vl2_5-38b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.98
+            },
+            "one-shot": {
+                "Acc": 0.978
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.98
+            },
+            "one-shot": {
+                "Acc": 0.98
+            }
+        }
+    },
+    "intern-vl2_5-26b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.973
+            },
+            "one-shot": {
+                "Acc": 0.977
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.966
+            },
+            "one-shot": {
+                "Acc": 0.976
+            }
+        }
+    },
+    "intern-vl2_5-8b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.823
+            },
+            "one-shot": {
+                "Acc": 0.913
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.843
+            },
+            "one-shot": {
+                "Acc": 0.885
+            }
+        }
+    },
+    "llava-onevision-qwen2-72b-ov-chat": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.975
+            },
+            "one-shot": {
+                "Acc": 0.985
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.973
+            },
+            "one-shot": {
+                "Acc": 0.98
+            }
+        }
+    },
+    "llava-onevision-qwen2-7b-ov": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.848
+            },
+            "one-shot": {
+                "Acc": 0.917
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.88
+            },
+            "one-shot": {
+                "Acc": 0.913
+            }
+        }
+    },
+    "minicpm-v-2_6": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.9
+            },
+            "one-shot": {
+                "Acc": 0.918
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.907
+            },
+            "one-shot": {
+                "Acc": 0.924
+            }
+        }
+    },
+    "mantis-8b-siglip-llama3": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.652
+            },
+            "one-shot": {
+                "Acc": 0.774
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.703
+            },
+            "one-shot": {
+                "Acc": 0.728
+            }
+        }
+    },
+    "idefics3-8b-llama3": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.13
+            },
+            "one-shot": {
+                "Acc": 0.132
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.09
+            },
+            "one-shot": {
+                "Acc": 0.07
+            }
+        }
+    }
+}

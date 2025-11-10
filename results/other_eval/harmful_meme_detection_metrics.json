@@ -1,0 +1,137 @@
+{
+    "gpt-4o-2024-08-06": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc_cn": 0.782,
+            "Acc_en": 0.611,
+            "Acc": 0.782
+        },
+        "nonpun_harmful_meme": {
+            "Acc_cn": 0.66,
+            "Acc_en": 0.517,
+            "Acc": 0.66
+        },
+        "pun_harmful_meme": {
+            "Acc_cn": 0.38,
+            "Acc_en": 0.23,
+            "Acc": 0.38
+        }
+    },
+    "claude-3-5-sonnet-20241022": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc_cn": 0.938,
+            "Acc_en": 0.867,
+            "Acc": 0.938
+        },
+        "nonpun_harmful_meme": {
+            "Acc_cn": 0.913,
+            "Acc_en": 0.767,
+            "Acc": 0.913
+        },
+        "pun_harmful_meme": {
+            "Acc_cn": 0.655,
+            "Acc_en": 0.54,
+            "Acc": 0.655
+        }
+    },
+    "doubao-1.5-vision-pro-32k-250115": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc_cn": 0.579,
+            "Acc_en": 0.483,
+            "Acc": 0.579
+        },
+        "nonpun_harmful_meme": {
+            "Acc_cn": 0.35,
+            "Acc_en": 0.277,
+            "Acc": 0.35
+        },
+        "pun_harmful_meme": {
+            "Acc_cn": 0.165,
+            "Acc_en": 0.1,
+            "Acc": 0.165
+        }
+    },
+    "qwen2.5-vl-72b-instruct": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc_cn": 0.423,
+            "Acc_en": 0.341,
+            "Acc": 0.423
+        },
+        "nonpun_harmful_meme": {
+            "Acc_cn": 0.257,
+            "Acc_en": 0.23,
+            "Acc": 0.257
+        },
+        "pun_harmful_meme": {
+            "Acc_cn": 0.125,
+            "Acc_en": 0.055,
+            "Acc": 0.125
+        }
+    },
+    "intern-vl2_5-78b": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc_cn": 0.393,
+            "Acc_en": null,
+            "Acc": 0.393
+        },
+        "nonpun_harmful_meme": {
+            "Acc_cn": 0.22,
+            "Acc_en": null,
+            "Acc": 0.22
+        },
+        "pun_harmful_meme": {
+            "Acc_cn": 0.085,
+            "Acc_en": null,
+            "Acc": 0.085
+        }
+    },
+    "llava-onevision-qwen2-72b-ov-chat": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc_cn": 0.584,
+            "Acc_en": 0.435,
+            "Acc": 0.584
+        },
+        "nonpun_harmful_meme": {
+            "Acc_cn": 0.543,
+            "Acc_en": 0.347,
+            "Acc": 0.543
+        },
+        "pun_harmful_meme": {
+            "Acc_cn": 0.255,
+            "Acc_en": 0.11,
+            "Acc": 0.255
+        }
+    },
+    "CLIP-MKE": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc": 0.659
+        },
+        "nonpun_harmful_meme": {
+            "Acc": 0.643
+        },
+        "pun_harmful_meme": {
+            "Acc": 0.535
+        }
+    },
+    "HateCLIPper-RGCL(cn)": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc": 0.681
+        },
+        "nonpun_harmful_meme": {
+            "Acc": 0.617
+        },
+        "pun_harmful_meme": {
+            "Acc": 0.515
+        }
+    },
+    "HateCLIPper-RGCL(en)": {
+        "ToxiCN_MM_harmful_meme": {
+            "Acc": 0.666
+        },
+        "nonpun_harmful_meme": {
+            "Acc": 0.607
+        },
+        "pun_harmful_meme": {
+            "Acc": 0.435
+        }
+    }
+}

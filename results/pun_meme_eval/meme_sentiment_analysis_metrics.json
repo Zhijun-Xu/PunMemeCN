@@ -1,0 +1,434 @@
+{
+    "intern-vl2_5-8b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.447,
+                "Acc_type": 0.507,
+                "Acc_whole": 0.226
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.45,
+                "Acc_type": 0.534,
+                "Acc_whole": 0.242
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.486,
+                "Acc_type": 0.583,
+                "Acc_whole": 0.298
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.504,
+                "Acc_type": 0.588,
+                "Acc_whole": 0.313
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.521,
+                "Acc_type": 0.578,
+                "Acc_whole": 0.317
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.516,
+                "Acc_type": 0.606,
+                "Acc_whole": 0.329
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.507,
+                "Acc_type": 0.608,
+                "Acc_whole": 0.323
+            }
+        },
+        "en": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.427,
+                "Acc_type": 0.508,
+                "Acc_whole": 0.218
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.446,
+                "Acc_type": 0.492,
+                "Acc_whole": 0.223
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.459,
+                "Acc_type": 0.553,
+                "Acc_whole": 0.249
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.487,
+                "Acc_type": 0.572,
+                "Acc_whole": 0.282
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.487,
+                "Acc_type": 0.57,
+                "Acc_whole": 0.27
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.449,
+                "Acc_type": 0.572,
+                "Acc_whole": 0.245
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.46,
+                "Acc_type": 0.588,
+                "Acc_whole": 0.262
+            }
+        }
+    },
+    "qwen2-vl-7b-instruct": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.5425,
+                "Acc_type": 0.5567,
+                "Acc_whole": 0.3575
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.5467,
+                "Acc_type": 0.6042,
+                "Acc_whole": 0.3475
+            }
+        }
+    },
+    "llava-onevision-qwen2-7b-ov": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.367,
+                "Acc_type": 0.506,
+                "Acc_whole": 0.188
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.398,
+                "Acc_type": 0.596,
+                "Acc_whole": 0.253
+            }
+        }
+    },
+    "minicpm-v-2_6": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.424,
+                "Acc_type": 0.541,
+                "Acc_whole": 0.254
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.488,
+                "Acc_type": 0.607,
+                "Acc_whole": 0.312
+            }
+        }
+    },
+    "gpt-4o-2024-08-06": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.522,
+                "Acc_type": 0.59,
+                "Acc_whole": 0.347
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.586,
+                "Acc_type": 0.653,
+                "Acc_whole": 0.414
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.532,
+                "Acc_type": 0.595,
+                "Acc_whole": 0.34
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.586,
+                "Acc_type": 0.635,
+                "Acc_whole": 0.39
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.588,
+                "Acc_type": 0.647,
+                "Acc_whole": 0.399
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.635,
+                "Acc_type": 0.761,
+                "Acc_whole": 0.477
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.638,
+                "Acc_type": 0.75,
+                "Acc_whole": 0.461
+            }
+        }
+    },
+    "gpt-4o-mini-2024-07-18": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.453,
+                "Acc_type": 0.492,
+                "Acc_whole": 0.229
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.514,
+                "Acc_type": 0.566,
+                "Acc_whole": 0.298
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.448,
+                "Acc_type": 0.567,
+                "Acc_whole": 0.264
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.515,
+                "Acc_type": 0.601,
+                "Acc_whole": 0.329
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.513,
+                "Acc_type": 0.603,
+                "Acc_whole": 0.321
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.584,
+                "Acc_type": 0.625,
+                "Acc_whole": 0.367
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.573,
+                "Acc_type": 0.599,
+                "Acc_whole": 0.35
+            }
+        }
+    },
+    "claude-3-5-sonnet-20241022": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.489,
+                "Acc_type": 0.555,
+                "Acc_whole": 0.307
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.555,
+                "Acc_type": 0.621,
+                "Acc_whole": 0.382
+            }
+        }
+    },
+    "doubao-1.5-vision-pro-32k-250115": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.541,
+                "Acc_type": 0.627,
+                "Acc_whole": 0.393
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.604,
+                "Acc_type": 0.686,
+                "Acc_whole": 0.459
+            }
+        }
+    },
+    "qwen2.5-vl-7b-instruct": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.472,
+                "Acc_type": 0.568,
+                "Acc_whole": 0.302
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.506,
+                "Acc_type": 0.595,
+                "Acc_whole": 0.329
+            }
+        }
+    },
+    "intern-vl2_5-26b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.492,
+                "Acc_type": 0.511,
+                "Acc_whole": 0.265
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.552,
+                "Acc_type": 0.591,
+                "Acc_whole": 0.335
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.448,
+                "Acc_type": 0.523,
+                "Acc_whole": 0.253
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.504,
+                "Acc_type": 0.613,
+                "Acc_whole": 0.326
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.494,
+                "Acc_type": 0.632,
+                "Acc_whole": 0.333
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.564,
+                "Acc_type": 0.625,
+                "Acc_whole": 0.362
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.569,
+                "Acc_type": 0.646,
+                "Acc_whole": 0.368
+            }
+        },
+        "en": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.457,
+                "Acc_type": 0.506,
+                "Acc_whole": 0.228
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.471,
+                "Acc_type": 0.586,
+                "Acc_whole": 0.27
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.403,
+                "Acc_type": 0.519,
+                "Acc_whole": 0.217
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.44,
+                "Acc_type": 0.568,
+                "Acc_whole": 0.265
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.461,
+                "Acc_type": 0.58,
+                "Acc_whole": 0.282
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.483,
+                "Acc_type": 0.627,
+                "Acc_whole": 0.306
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.492,
+                "Acc_type": 0.645,
+                "Acc_whole": 0.326
+            }
+        }
+    },
+    "qwen2.5-vl-72b-instruct": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.538,
+                "Acc_type": 0.587,
+                "Acc_whole": 0.344
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.58,
+                "Acc_type": 0.641,
+                "Acc_whole": 0.398
+            }
+        }
+    },
+    "llava-onevision-qwen2-72b-ov-chat": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.381,
+                "Acc_type": 0.489,
+                "Acc_whole": 0.179
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.52,
+                "Acc_type": 0.635,
+                "Acc_whole": 0.333
+            }
+        }
+    },
+    "intern-vl2_5-38b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.507,
+                "Acc_type": 0.495,
+                "Acc_whole": 0.238
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.549,
+                "Acc_type": 0.573,
+                "Acc_whole": 0.294
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.457,
+                "Acc_type": 0.532,
+                "Acc_whole": 0.241
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.506,
+                "Acc_type": 0.605,
+                "Acc_whole": 0.318
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.512,
+                "Acc_type": 0.603,
+                "Acc_whole": 0.322
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.552,
+                "Acc_type": 0.627,
+                "Acc_whole": 0.348
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.556,
+                "Acc_type": 0.647,
+                "Acc_whole": 0.361
+            }
+        },
+        "en": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.437,
+                "Acc_type": 0.477,
+                "Acc_whole": 0.191
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.456,
+                "Acc_type": 0.541,
+                "Acc_whole": 0.225
+            },
+            "only_image(few_shot)": {
+                "Acc_target": 0.409,
+                "Acc_type": 0.498,
+                "Acc_whole": 0.204
+            },
+            "image_&_caption(few_shot)": {
+                "Acc_target": 0.492,
+                "Acc_type": 0.572,
+                "Acc_whole": 0.287
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "Acc_target": 0.505,
+                "Acc_type": 0.576,
+                "Acc_whole": 0.31
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "Acc_target": 0.507,
+                "Acc_type": 0.622,
+                "Acc_whole": 0.33
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "Acc_target": 0.511,
+                "Acc_type": 0.642,
+                "Acc_whole": 0.331
+            }
+        }
+    },
+    "intern-vl2_5-78b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "Acc_target": 0.493,
+                "Acc_type": 0.507,
+                "Acc_whole": 0.253
+            },
+            "image_&_caption(zero_shot)": {
+                "Acc_target": 0.553,
+                "Acc_type": 0.598,
+                "Acc_whole": 0.337
+            }
+        }
+    }
+}

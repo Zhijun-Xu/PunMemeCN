@@ -1,0 +1,264 @@
+{
+    "gpt-4o-2024-08-06": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.884
+            },
+            "one-shot": {
+                "Acc": 0.887
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.883
+            },
+            "one-shot": {
+                "Acc": 0.883
+            }
+        }
+    },
+    "gpt-4o-mini-2024-07-18": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.797
+            },
+            "one-shot": {
+                "Acc": 0.805
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.811
+            },
+            "one-shot": {
+                "Acc": 0.801
+            }
+        }
+    },
+    "claude-3-5-sonnet-20241022": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.892
+            },
+            "one-shot": {
+                "Acc": 0.893
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.905
+            },
+            "one-shot": {
+                "Acc": 0.9
+            }
+        }
+    },
+    "doubao-1.5-vision-pro-32k-250115": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.97
+            },
+            "one-shot": {
+                "Acc": 0.972
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.975
+            },
+            "one-shot": {
+                "Acc": 0.966
+            }
+        }
+    },
+    "qwen2.5-vl-72b-instruct": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.964
+            },
+            "one-shot": {
+                "Acc": 0.969
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.973
+            },
+            "one-shot": {
+                "Acc": 0.975
+            }
+        }
+    },
+    "qwen2.5-vl-7b-instruct": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.954
+            },
+            "one-shot": {
+                "Acc": 0.96
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.957
+            },
+            "one-shot": {
+                "Acc": 0.962
+            }
+        }
+    },
+    "intern-vl2_5-78b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.946
+            },
+            "one-shot": {
+                "Acc": 0.943
+            }
+        }
+    },
+    "intern-vl2_5-38b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.951
+            },
+            "one-shot": {
+                "Acc": 0.954
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.953
+            },
+            "one-shot": {
+                "Acc": 0.948
+            }
+        }
+    },
+    "intern-vl2_5-26b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.952
+            },
+            "one-shot": {
+                "Acc": 0.951
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.963
+            },
+            "one-shot": {
+                "Acc": 0.959
+            }
+        }
+    },
+    "intern-vl2_5-8b": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.899
+            },
+            "one-shot": {
+                "Acc": 0.891
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.872
+            },
+            "one-shot": {
+                "Acc": 0.897
+            }
+        }
+    },
+    "llava-onevision-qwen2-72b-ov-chat": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.579
+            },
+            "one-shot": {
+                "Acc": 0.587
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.597
+            },
+            "one-shot": {
+                "Acc": 0.583
+            }
+        }
+    },
+    "llava-onevision-qwen2-7b-ov": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.456
+            },
+            "one-shot": {
+                "Acc": 0.423
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.435
+            },
+            "one-shot": {
+                "Acc": 0.443
+            }
+        }
+    },
+    "minicpm-v-2_6": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.927
+            },
+            "one-shot": {
+                "Acc": 0.932
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.912
+            },
+            "one-shot": {
+                "Acc": 0.917
+            }
+        }
+    },
+    "mantis-8b-siglip-llama3": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.02
+            },
+            "one-shot": {
+                "Acc": 0.04
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.018
+            },
+            "one-shot": {
+                "Acc": 0.059
+            }
+        }
+    },
+    "idefics3-8b-llama3": {
+        "cn": {
+            "zero-shot": {
+                "Acc": 0.048
+            },
+            "one-shot": {
+                "Acc": 0.055
+            }
+        },
+        "en": {
+            "zero-shot": {
+                "Acc": 0.055
+            },
+            "one-shot": {
+                "Acc": 0.064
+            }
+        }
+    }
+}

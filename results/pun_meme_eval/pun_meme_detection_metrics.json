@@ -1,0 +1,434 @@
+{
+    "intern-vl2_5-8b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.969,
+                "TNR": 0.068,
+                "F1": 0.506
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.408,
+                "TNR": 0.821,
+                "F1": 0.462
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.986,
+                "TNR": 0.329,
+                "F1": 0.593
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.623,
+                "TNR": 0.911,
+                "F1": 0.692
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.502,
+                "TNR": 0.949,
+                "F1": 0.626
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.784,
+                "TNR": 0.832,
+                "F1": 0.74
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.692,
+                "TNR": 0.861,
+                "F1": 0.702
+            }
+        },
+        "en": {
+            "only_image(zero_shot)": {
+                "TPR": 0.997,
+                "TNR": 0.04,
+                "F1": 0.509
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.64,
+                "TNR": 0.587,
+                "F1": 0.519
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.945,
+                "TNR": 0.495,
+                "F1": 0.639
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.676,
+                "TNR": 0.86,
+                "F1": 0.692
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.647,
+                "TNR": 0.9,
+                "F1": 0.7
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.888,
+                "TNR": 0.48,
+                "F1": 0.607
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.916,
+                "TNR": 0.527,
+                "F1": 0.64
+            }
+        }
+    },
+    "qwen2-vl-7b-instruct": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.9985,
+                "TNR": 0.0,
+                "F1": 0.4994
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 1.0,
+                "TNR": 0.0008,
+                "F1": 0.5002
+            }
+        }
+    },
+    "llava-onevision-qwen2-7b-ov": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.643,
+                "TNR": 0.309,
+                "F1": 0.425
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.989,
+                "TNR": 0.03,
+                "F1": 0.504
+            }
+        }
+    },
+    "minicpm-v-2_6": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.998,
+                "TNR": 0.0,
+                "F1": 0.499
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 1.0,
+                "TNR": 0.001,
+                "F1": 0.5
+            }
+        }
+    },
+    "gpt-4o-2024-08-06": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.986,
+                "TNR": 0.357,
+                "F1": 0.603
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.995,
+                "TNR": 0.377,
+                "F1": 0.614
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.813,
+                "TNR": 0.616,
+                "F1": 0.63
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.966,
+                "TNR": 0.709,
+                "F1": 0.758
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.969,
+                "TNR": 0.697,
+                "F1": 0.753
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.977,
+                "TNR": 0.767,
+                "F1": 0.8
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.985,
+                "TNR": 0.696,
+                "F1": 0.759
+            }
+        }
+    },
+    "gpt-4o-mini-2024-07-18": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.956,
+                "TNR": 0.062,
+                "F1": 0.499
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.986,
+                "TNR": 0.191,
+                "F1": 0.547
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.479,
+                "TNR": 0.502,
+                "F1": 0.387
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.505,
+                "TNR": 0.829,
+                "F1": 0.547
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.646,
+                "TNR": 0.794,
+                "F1": 0.628
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.393,
+                "TNR": 0.959,
+                "F1": 0.532
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.382,
+                "TNR": 0.97,
+                "F1": 0.53
+            }
+        }
+    },
+    "claude-3-5-sonnet-20241022": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.739,
+                "TNR": 0.72,
+                "F1": 0.643
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.974,
+                "TNR": 0.51,
+                "F1": 0.659
+            }
+        }
+    },
+    "doubao-1.5-vision-pro-32k-250115": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.88,
+                "TNR": 0.847,
+                "F1": 0.805
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.962,
+                "TNR": 0.824,
+                "F1": 0.832
+            }
+        }
+    },
+    "qwen2.5-vl-7b-instruct": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.997,
+                "TNR": 0.002,
+                "F1": 0.499
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.983,
+                "TNR": 0.252,
+                "F1": 0.565
+            }
+        }
+    },
+    "intern-vl2_5-26b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.965,
+                "TNR": 0.244,
+                "F1": 0.555
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.992,
+                "TNR": 0.217,
+                "F1": 0.558
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.847,
+                "TNR": 0.278,
+                "F1": 0.514
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.977,
+                "TNR": 0.3,
+                "F1": 0.579
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.965,
+                "TNR": 0.485,
+                "F1": 0.644
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.922,
+                "TNR": 0.724,
+                "F1": 0.745
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.966,
+                "TNR": 0.631,
+                "F1": 0.715
+            }
+        },
+        "en": {
+            "only_image(zero_shot)": {
+                "TPR": 0.923,
+                "TNR": 0.454,
+                "F1": 0.612
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.962,
+                "TNR": 0.517,
+                "F1": 0.657
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.739,
+                "TNR": 0.686,
+                "F1": 0.625
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.89,
+                "TNR": 0.755,
+                "F1": 0.747
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.913,
+                "TNR": 0.706,
+                "F1": 0.73
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.985,
+                "TNR": 0.331,
+                "F1": 0.593
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.975,
+                "TNR": 0.324,
+                "F1": 0.586
+            }
+        }
+    },
+    "qwen2.5-vl-72b-instruct": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.96,
+                "TNR": 0.517,
+                "F1": 0.656
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.986,
+                "TNR": 0.538,
+                "F1": 0.678
+            }
+        }
+    },
+    "llava-onevision-qwen2-72b-ov-chat": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.948,
+                "TNR": 0.053,
+                "F1": 0.493
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.963,
+                "TNR": 0.613,
+                "F1": 0.704
+            }
+        }
+    },
+    "intern-vl2_5-38b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.969,
+                "TNR": 0.308,
+                "F1": 0.578
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.992,
+                "TNR": 0.186,
+                "F1": 0.548
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.701,
+                "TNR": 0.717,
+                "F1": 0.618
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.816,
+                "TNR": 0.861,
+                "F1": 0.779
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.771,
+                "TNR": 0.903,
+                "F1": 0.785
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.845,
+                "TNR": 0.877,
+                "F1": 0.809
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.732,
+                "TNR": 0.943,
+                "F1": 0.793
+            }
+        },
+        "en": {
+            "only_image(zero_shot)": {
+                "TPR": 0.839,
+                "TNR": 0.688,
+                "F1": 0.681
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.963,
+                "TNR": 0.646,
+                "F1": 0.721
+            },
+            "only_image(few_shot)": {
+                "TPR": 0.629,
+                "TNR": 0.814,
+                "F1": 0.628
+            },
+            "image_&_caption(few_shot)": {
+                "TPR": 0.831,
+                "TNR": 0.884,
+                "F1": 0.806
+            },
+            "image_&_caption_&_pinyin(few_shot)": {
+                "TPR": 0.819,
+                "TNR": 0.889,
+                "F1": 0.802
+            },
+            "image_&_caption(few_shot+CoT)": {
+                "TPR": 0.882,
+                "TNR": 0.833,
+                "F1": 0.796
+            },
+            "image_&_caption_&_pinyin(few_shot+CoT)": {
+                "TPR": 0.913,
+                "TNR": 0.834,
+                "F1": 0.813
+            }
+        }
+    },
+    "intern-vl2_5-78b": {
+        "cn": {
+            "only_image(zero_shot)": {
+                "TPR": 0.853,
+                "TNR": 0.739,
+                "F1": 0.718
+            },
+            "image_&_caption(zero_shot)": {
+                "TPR": 0.949,
+                "TNR": 0.728,
+                "F1": 0.761
+            }
+        }
+    }
+}
